@@ -19,6 +19,10 @@
 		E0E78F8F2616741F001FC731 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E78F8E2616741F001FC731 /* User.swift */; };
 		E0E78F92261674DB001FC731 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E78F91261674DB001FC731 /* Friend.swift */; };
 		E0E78F9C26167778001FC731 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E78F9B26167778001FC731 /* ListView.swift */; };
+		E0FF57FD261C205D00BA8841 /* UserCoreData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FF57F9261C205D00BA8841 /* UserCoreData+CoreDataClass.swift */; };
+		E0FF57FE261C205D00BA8841 /* UserCoreData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FF57FA261C205D00BA8841 /* UserCoreData+CoreDataProperties.swift */; };
+		E0FF57FF261C205D00BA8841 /* FriendCoreData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FF57FB261C205D00BA8841 /* FriendCoreData+CoreDataClass.swift */; };
+		E0FF5800261C205D00BA8841 /* FriendCoreData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FF57FC261C205D00BA8841 /* FriendCoreData+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,10 @@
 		E0E78F8E2616741F001FC731 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = User.swift; path = FriendBook/User.swift; sourceTree = SOURCE_ROOT; };
 		E0E78F91261674DB001FC731 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 		E0E78F9B26167778001FC731 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ListView.swift; path = FriendBook/ListView.swift; sourceTree = SOURCE_ROOT; };
+		E0FF57F9261C205D00BA8841 /* UserCoreData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserCoreData+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		E0FF57FA261C205D00BA8841 /* UserCoreData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserCoreData+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		E0FF57FB261C205D00BA8841 /* FriendCoreData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FriendCoreData+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		E0FF57FC261C205D00BA8841 /* FriendCoreData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FriendCoreData+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +101,10 @@
 		E0E78F88261672E8001FC731 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E0FF57F9261C205D00BA8841 /* UserCoreData+CoreDataClass.swift */,
+				E0FF57FA261C205D00BA8841 /* UserCoreData+CoreDataProperties.swift */,
+				E0FF57FB261C205D00BA8841 /* FriendCoreData+CoreDataClass.swift */,
+				E0FF57FC261C205D00BA8841 /* FriendCoreData+CoreDataProperties.swift */,
 				E0E78F8E2616741F001FC731 /* User.swift */,
 				E0E78F91261674DB001FC731 /* Friend.swift */,
 			);
@@ -183,10 +195,14 @@
 				E0E78F73261672D4001FC731 /* SceneDelegate.swift in Sources */,
 				E0E78F78261672D4001FC731 /* FriendBook.xcdatamodeld in Sources */,
 				E0D8D7652617FCFC0039B404 /* UserFriendsView.swift in Sources */,
+				E0FF57FE261C205D00BA8841 /* UserCoreData+CoreDataProperties.swift in Sources */,
 				E0E78F9C26167778001FC731 /* ListView.swift in Sources */,
 				E0D8D7622617FA7A0039B404 /* UserDetailView.swift in Sources */,
 				E0E78F92261674DB001FC731 /* Friend.swift in Sources */,
+				E0FF57FF261C205D00BA8841 /* FriendCoreData+CoreDataClass.swift in Sources */,
 				E0E78F8F2616741F001FC731 /* User.swift in Sources */,
+				E0FF5800261C205D00BA8841 /* FriendCoreData+CoreDataProperties.swift in Sources */,
+				E0FF57FD261C205D00BA8841 /* UserCoreData+CoreDataClass.swift in Sources */,
 				E0E78F75261672D4001FC731 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
